@@ -1,1 +1,0 @@
-Will have the app services. README to be deleted once a real file is created.

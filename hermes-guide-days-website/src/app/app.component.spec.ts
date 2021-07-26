@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'hermes-guide-days-website'`, () => {
+  it(`should have as title 'test5'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('hermes-guide-days-website');
+    expect(app.title).toEqual('test5');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('hermes-guide-days-website app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('test5 app is running!');
   });
 });
