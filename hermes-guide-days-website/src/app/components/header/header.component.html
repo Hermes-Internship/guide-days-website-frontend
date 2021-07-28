@@ -1,0 +1,36 @@
+
+<div class="topnav" id="myTopnav">
+  <a class="navbar-item">
+    <img src="assets\img\Logo-Hermes.png">
+  </a>
+  <a href="#contact">Contact</a>
+  <a href="#inscriere">Înscrie-te</a>
+  <a href="#activități">Activități</a>
+  <a href="#about">Despre</a>
+   
+</div>
+
+<ng-sidebar-container>
+  <ng-sidebar [opened]="opened">
+    <button class="button-close-sidebar" (click)="toggleSidebar()">
+    <ul class="menu">
+      <li><a href="#about">Despre</a></li>
+      <hr>
+      <li><a href="#activități">Activități</a></li>
+      <hr>
+      <li><a href="#inscriere">Înscrie-te</a></li>
+      <hr>
+      <li><a href="#contact">Contact</a>
+      <hr>
+    </ul>
+    </button>
+  </ng-sidebar>
+  <div ng-sidebar-content>
+    <button class="button-menu" (click)="toggleSidebar()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </button>
+
+  </div>
+</ng-sidebar-container>
