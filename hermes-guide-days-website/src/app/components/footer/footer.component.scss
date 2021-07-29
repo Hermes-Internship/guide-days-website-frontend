@@ -1,0 +1,117 @@
+@import "src/variables.scss";
+
+.footer {
+  color: $white;
+  background-color: $black-hermes;
+  padding-top: 40px;
+  text-align: center;
+}
+
+#contact {
+  margin: 0px 0px 40px 0px;
+  font-size: 30px;
+  padding: 0;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.content {
+  font-size: 20px;
+  margin: 0px 0px 40px 0px;
+}
+
+.col-1-3 {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0% 0% 0% 4%;
+  width: 28%;
+  padding: 0% 0%;
+}
+
+.col-1-3:last-child {
+  margin: 0% 4% 0% 4%;
+}
+
+.event {
+  font-size: 24px;
+  margin-bottom: 0px 0px 20px 0px;
+}
+
+.row {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.organization-logo {
+  width: 20%;
+  background-color: #fff;
+  margin: 0px 0px 40px 0px;
+  border: $white solid;
+  border-radius: 10%;
+}
+
+.social-icon {
+  width: 30px;
+  margin: 0px 15px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .footer {
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 15px;
+  }
+
+  #contact {
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    font-size: 19px;
+  }
+
+  .col-1-3 {
+    display: block;
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 0%;
+  }
+
+  .col-1-3:last-child {
+    margin: 0px 0px 15px 0px;
+  }
+
+  .title {
+    font-size: 17px;
+    margin: 0px 0px;
+  }
+
+  .content {
+    font-size: 17px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .content:last-child {
+    margin: 0x 0px 10px 0px;
+  }
+
+  .event {
+    font-size: 17px;
+    margin: 0px 0px 15px 0px;
+  }
+
+  .social-icon {
+    width: 20px;
+    margin: 15px 10px 0px 10px;
+  }
+
+  .social-icon:nth-child(1) {
+    margin-top: 0px 15px;
+    width: 22px;
+  }
+
+  .organization-logo {
+    width: 50%;
+    margin: 0px 0px 24px 0px;
+  }
+}
