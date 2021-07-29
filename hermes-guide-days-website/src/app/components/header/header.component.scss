@@ -1,6 +1,7 @@
+@import "src/variables.scss";
 .topnav {
     overflow: hidden;
-    background-color: var(--red);
+    background-color:$red;
   }
 
 .topnav .navbar-item {
@@ -18,7 +19,7 @@
   .topnav a {
     float: right;
     display: block;
-    color: var(--light-gray);
+    color: $light-gray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -43,7 +44,7 @@
     }
     .topnav {
       overflow: hidden;
-      background-color: #fff;
+      background-color: $white;
     }
   }
 
@@ -66,7 +67,8 @@
 }
 
 ng-sidebar-container {
-  height: 100vh;
+  height: 210px;
+  
 }
 
 ::ng-deep .ng-sidebar {
@@ -98,12 +100,12 @@ ng-sidebar-container {
   margin-top: 0px;
   margin-bottom: 10px;
   margin-left: 10%;
-  background-color:var(--red);
+  background-color:$red;
 }
 
 .menu li a {
   display: block;
-  color: var(--black);
+  color: $black-hermes;
   text-decoration: none;
   font-size: 15px;
   text-align: left;
@@ -112,7 +114,7 @@ ng-sidebar-container {
 
 
 .button-menu {
-  border: 2px solid var(--red);
+  border: 2px solid $red;
   padding: 8px;
   text-decoration: none;
   display: inline-block;
@@ -120,13 +122,13 @@ ng-sidebar-container {
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 6px 7px 9px rgba(85, 85, 85, 0.5);
-  background-color: #fff;
+  background-color: $white;
 }
 
 .button-menu div {
     width: 32px;
     height: 1.5px;
-    background-color: var(--red);
+    background-color: $red;
     margin: 8px 3px;
 }
 
@@ -135,5 +137,5 @@ ng-sidebar-container {
   width: 100%;
   height: 200px;
   margin:0px;
-  background-color: #fff;
+  background-color: $white;
 }
