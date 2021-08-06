@@ -1,0 +1,218 @@
+@import "src/variables.scss";
+
+.about {
+  background-color: $white;
+}
+
+.col1-of-2 {
+  display: inline-block;
+  margin: 0px 0px 50px 10%;
+}
+
+.col1-of-2:first-child {
+  width: 45%;
+  text-align: center;
+}
+
+.col1-of-2:last-child {
+  width: 35%;
+  text-align: center;
+}
+
+//prima coloana
+
+.guide-days-logo {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.question {
+  font-size: 30px;
+  color: $red;
+  margin: 0px 0px;
+}
+
+.description {
+  text-align: left;
+  font-size: 24px;
+  margin: 0px 0px;
+}
+
+//A doua coloana
+
+.start {
+  width: 45%;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+
+.buline {
+  width: 20%;
+  height: 50%;
+  padding: 20px 20px;
+  border: 15px solid $red;
+  border-radius: 50%;
+  margin: 0px 5%;
+  text-align: center;
+  display: inline-block;
+  background-color: $red;
+  font-size: 24px;
+  padding: 5px;
+  color: #fff;
+}
+
+button {
+  margin-top: 40px;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  background-color: $red;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: 5px solid $red;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1080px) {
+  .col1-of-2 {
+    .row {
+      .guide-days-logo {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .col1-of-2 {
+    display: block;
+    margin: 40px 10%;
+    width: 80%;
+  }
+
+  .col1-of-2:first-child {
+    width: 80%;
+  }
+
+  .col1-of-2:last-child {
+    width: 80%;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+  }
+
+  .start {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px auto;
+  }
+
+  .buline:first-child {
+    margin: 30px 5%;
+  }
+
+  .buline:first-child {
+    margin: 30px 5%;
+  }
+
+  .buline {
+    width: 15%;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 10%;
+  }
+
+  button {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .col1-of-2 {
+    .row {
+      .guide-days-logo {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  .col1-of-2 {
+    display: block;
+    margin: 40px 10%;
+    width: 80%;
+  }
+
+  .col1-of-2:first-child {
+    width: 80%;
+  }
+
+  .col1-of-2:last-child {
+    width: 80%;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+  }
+
+  .question {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 21px;
+  }
+
+  .start {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px auto;
+    font-size: 24px;
+  }
+
+  .buline:first-child {
+    margin: 30px 5%;
+  }
+
+  .buline:first-child {
+    margin: 30px 5%;
+  }
+
+  .buline {
+    width: 23.33%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 19px;
+    border: 5%;
+  }
+
+  button {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 45%;
+    font-size: 21px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
