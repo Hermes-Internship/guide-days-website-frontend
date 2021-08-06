@@ -1,0 +1,35 @@
+<div class="about">
+  <div class="col1-of-2">
+    <div class="row">
+      <img
+        src="assets/images/Guide-days-black.png"
+        alt="guide days logo"
+        class="guide-days-logo"
+      />
+    </div>
+    <div class="row">
+      <p class="question">Ce este Guide Days?</p>
+    </div>
+    <div class="row">
+      <p class="description" *ngFor="let event of events">
+        {{ event.eventDescription }}
+      </p>
+    </div>
+  </div>
+  <div class="col1-of-2">
+    <p class="start">Începem în</p>
+    <p class="buline">
+      {{ daysToStart }}<br />
+      Zile
+    </p>
+    <p class="buline">
+      {{ hoursToStart }} <br />
+      Ore
+    </p>
+    <p class="buline">
+      {{ minutesToStart }} <br />
+      Min
+    </p>
+    <button>Înscrie-te</button>
+  </div>
+</div>

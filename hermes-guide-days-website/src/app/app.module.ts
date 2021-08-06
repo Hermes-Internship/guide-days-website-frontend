@@ -11,6 +11,9 @@ import { ActivitiesComponent } from './views/activities/components/activities/ac
 import { TimelineComponent } from './views/activities/components/timeline/timeline.component';
 
 
+import { HttpClientModule } from '@angular/common/http';
+import { AboutComponent } from './components/about/about/about.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,12 +21,14 @@ import { TimelineComponent } from './views/activities/components/timeline/timeli
     FooterComponent,
     ActivitiesComponent,
     TimelineComponent
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    SidebarModule.forRoot()
+    SidebarModule.forRoot(),
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
