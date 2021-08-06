@@ -7,12 +7,17 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SidebarModule } from 'ng-sidebar';
+import { ActivitiesComponent } from './views/activities/components/activities/activities.component';
+import { TimelineComponent } from './views/activities/components/timeline/timeline.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ActivitiesComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,

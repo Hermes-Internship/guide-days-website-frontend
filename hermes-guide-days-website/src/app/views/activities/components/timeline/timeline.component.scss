@@ -1,0 +1,118 @@
+@import "src/variables.scss";
+#desktop-version .circle, #desktop-version .middle-circles, #desktop-version .bottom-circle {
+    width: 100px;
+    height: 100px;
+    line-height: 75px;
+    border-radius: 50%;
+    color: $black-hermes;
+    text-align: center;
+    background: $white;
+    border: 3px;
+    border-color: $red;
+    border-style: solid;
+    position: relative;
+    display: block;
+    font-size: 24px;
+    margin: auto;
+  }
+
+#desktop-version .middle-circles, #desktop-version .bottom-circle {
+    margin-top: 0px;
+}
+
+#desktop-version .circle, #mobile-version .circle {
+  margin-top: 60px;
+}
+
+#desktop-version .bottom-circle, #mobile-version .bottom-circle{
+    margin-bottom: 60px;
+    margin-top: 0px;
+}
+
+.event-name, .event-name-left {
+    width: 25%;
+    height: 60px;
+    border-radius: 25px;
+    color: $black-hermes;
+    text-align: center;
+    background: $white;
+    border: 3px;
+    border-color: $red;
+    border-style: solid;
+    position: absolute;
+    margin-left: 59%;
+    margin-top: -6.3%;
+    display: block;
+    font-size: 24px;
+}
+.event-name p {
+  margin: 0px;
+}
+
+.circle p, .bottom-circle p, .middle-circles p {
+  margin-bottom: -7.5rem;
+}
+#desktop-version .line {
+    border-left: 3px solid $red;
+    height: 20px;
+    width: 0px;
+    position: relative;
+    display: block;
+    margin:auto;
+  }
+
+  #mobile-version .line {
+    border-left: 3px solid $red;
+    height: 20px;
+    width: 0px;
+    position: relative;
+    display: block;
+    margin-left: 115px;
+  }
+
+  .hr-left, .hr-right {
+    width:5%;
+    padding:1px;
+    background-color:$red;
+    margin-left: 53.9%;
+    position: absolute;
+    margin-top: -4%;
+  }
+
+  #mobile-version .hr-right {
+    margin-left: 166px;
+    margin-top: -6.5%;
+    width: 50px;
+  }
+
+  #mobile-version .event-name {
+    margin-left: 206px;
+    margin-top: -10%;
+    width: 250px
+  }
+
+  @media screen and (max-width: 800px) {
+    #desktop-version {display: none;}
+  }
+
+  @media screen and (min-width: 800px) {
+    #mobile-version {display: none;}
+  }
+
+  #mobile-version .circle, #mobile-version .middle-circles, #mobile-version .bottom-circle {
+    width: 100px;
+    height: 100px;
+    line-height: 75px;
+    border-radius: 50%;
+    color: $black-hermes;
+    text-align: center;
+    background: $white;
+    border: 3px;
+    border-color: $red;
+    border-style: solid;
+    position: relative;
+    display: block;
+    font-size: 24px;
+    margin-left: 66px;
+  }
+
